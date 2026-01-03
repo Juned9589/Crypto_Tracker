@@ -1,16 +1,105 @@
-# React + Vite
+🕹️ Crypto Tracker – Retro UI (React + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A retro-themed cryptocurrency tracker built with React and Tailwind CSS, inspired by classic 80s terminal & neon UI aesthetics.
+The app allows users to view trending cryptocurrencies and search coins in real time using a clean and minimal interface.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📈 Trending Cryptocurrencies
 
-## Expanding the ESLint configuration
+🔍 Search Coins by Name
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎮 Retro / Terminal-style Neon UI
+
+⚡ Fast and responsive layout
+
+🌙 Dark theme with glowing accents
+
+🧠 Global state management using Context API + Reducer
+
+🛠️ Tech Stack
+
+React
+
+Tailwind CSS
+
+Context API & useReducer
+
+CoinGecko API
+
+Vite
+
+Git & GitHub
+
+📸 UI Preview
+
+(Optional: Add screenshots here later)
+
+![Crypto Tracker Retro UI](./screenshots/preview.png)
+
+📂 Project Structure
+src/
+│── Components/
+│   ├── TrendingCoins.jsx
+│   ├── SearchCoin.jsx
+│   ├── CoinCard.jsx
+│
+│── Context/
+│   ├── CoinContext.jsx
+│   ├── CoinReducer.jsx
+│   ├── CoinService.jsx
+│
+│── App.jsx
+│── main.jsx
+│── index.css
+
+
+
+🧠 How the App Works
+
+On load, the app fetches trending cryptocurrencies.
+
+Users can search for any crypto coin using the search bar.
+
+Data is managed globally using React Context + Reducer.
+
+UI is styled using Tailwind CSS only, keeping the code clean and reusable.
+
+🎨 Retro UI Inspiration
+
+Old-school terminal screens
+
+Neon green, cyan & magenta highlights
+
+Minimal layouts with glowing hover effects
+
+Dark backgrounds for better contrast
+
+📌 Future Enhancements
+
+📊 Coin detail page
+
+⭐ Watchlist / favorites
+
+💱 Currency selector (USD / INR)
+
+📱 Improved mobile animations
+
+✨ Glitch & scanline effects
+
+👤 Author
+
+Juned Bhutto
+🎓 B.Tech CSE Student
+💻 Frontend Developer (React)
+
+📜 License
+
+This project is open-source and available for learning and personal use.
+
+⭐ If you like this project
+
+Don’t forget to star the repository ⭐
+It really helps!
